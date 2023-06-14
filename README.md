@@ -1,4 +1,4 @@
-# practices
+# practice1-prime or not
 #练习1：输入一个正整数判断是不是素数。
 #素数指的是只能被1和自身整除的大于1的整数。
 
