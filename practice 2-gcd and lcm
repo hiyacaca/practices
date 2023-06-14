@@ -7,17 +7,29 @@
 #提示：两个数的最大公约数是两个数的公共因子中最大的那个数；
 # 两个数的最小公倍数则是能够同时被两个数整除的最小的那个数。
 
-a=int(input('num1'))
-b=int(input('num2'))
+a=int(input('num1:'))
+b=int(input('num2:'))
 gcd=1
 
 if a>=b:
     for j in range(1, b + 1):
         if a%j==0 and b%j==0 and gcd<=j:
                 gcd=j
-    print(gcd)
+    print('greatest common divisor:',gcd)
 else:
     for i in range(1,a+1):
         if a % i == 0 and b % i == 0 and gcd <= i:
             gcd = i
-    print(gcd)
+    print('greatest common divisor:',gcd)
+
+lcm=a*b
+if a >= b:
+    for i in range(a, a*b + 1):
+        if i % a == 0 and i % b == 0 and lcm >= i:
+            lcm=i
+    print('least common multiple:',lcm)
+if a < b:
+    for i in range(b, a * b + 1):5
+        if i % a == 0 and i % b == 0 and lcm >= i:
+            lcm = i
+    print('least common multiple:',lcm)
