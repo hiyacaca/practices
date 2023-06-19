@@ -1,0 +1,12 @@
+# yahang NO.1
+# 6/19/2023 4:03 PM 的你也真的很棒棒呢！
+#Fibonacci sequence
+'''i=1
+j=1
+n=0
+while n<21:
+    print(i)
+    i,j=j,i+j
+    n+=1'''
+
+
