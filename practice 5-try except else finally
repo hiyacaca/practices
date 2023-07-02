@@ -1,0 +1,12 @@
+# yahang NO.1
+# 7/1/2023 11:53 AM 的你也真的很棒棒呢！
+
+try:
+    n1=int(input('number1'))
+    n2=int(input('number2'))
+    result=n1/n2
+    print(result)
+except BaseException as e:
+    print('error:',e)
+else: print('result is %0.3f:'% result)
+finally: print('thank u for using')
